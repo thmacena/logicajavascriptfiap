@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol</title>
+</head>
+<body>
+    <script>
+        function pulaLinha(){
+
+        document.write("<br><br>");
+
+        }
+
+        function mostra(frase){
+
+            document.write(frase);
+            pulaLinha();
+        }
+        /*  o parseInt serve para transformar uma string que receba o valor de um número em número, ele só pode
+        ser usado para converter string em número*/
+        //Já o prompt sempre será uma string e necessita do parseInt para ser convertido em número.//
+
+        var vitorias = parseInt(prompt ("Insira o número de vitórias: "));
+        var empates =  parseInt(prompt("Insira o número de empates"));
+        var pontos = vitorias * 3 + empates;
+
+        mostra ("O total de pontos do seu time soma: " + pontos);
+        
+        if(pontos>28) {
+            
+            mostra("Seu time está melhor do que o ano passado! :) ");
+        }
+        
+        if(pontos<28) {
+            
+            mostra("Seu time está pior do que o ano passado! :( ");
+        }
+
+        if(pontos==28){
+            
+            mostra("Seu time está igual ao ano passado.");
+        }
+
+        mostra("Fim! *-*")
+
+    </script>
+</body>
+</html>

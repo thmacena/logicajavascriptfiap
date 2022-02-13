@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testeimc</title>
+</head>
+<body>
+
+    <script>
+
+        function mostra(frase){
+            
+            document.write(frase);
+            pulaLinha();
+        }
+
+        function pulaLinha(){
+
+            document.write("<br><br>");
+        }
+
+        function calculaImc(pesoInformado, alturaInformada){
+           
+            return pesoInformado / (alturaInformada * alturaInformada);
+        }
+
+        var pesoInformado = 70;
+        var alturaInformada = 1.72;
+        /* peso 2*/
+        pesoInformado = 50
+        alturaInformada = 1.60
+        /* peso 3*/
+        pesoInformado = 55
+        alturaInformada = 1.64
+
+        var pesoUm = calculaImc(70, 172);
+        var pesoDois = calculaImc(50, 1.60);
+        var pesoTres = calculaImc (55, 1.64);
+        var imctotal = pesoUm + pesoDois + pesoTres;
+
+        mostra("O imc do primeiro é: " + Math.round(pesoUm));
+        mostra("O imc do segundo é de: " + Math.round(pesoDois));
+        mostra("O imc do peso três é: " + Math.round(pesoTres));
+        mostra("O Peso total das 3 baleias é de: " + Math.round(imctotal));
+
+    </script>
+    
+</body>
+</html>
