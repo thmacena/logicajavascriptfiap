@@ -1,0 +1,25 @@
+.box{
+    /* largura pode ser usado w(largura)*/
+    width: 200px; 
+
+    /* altura pode ser usado h(altura)*/
+    height: 150px; 
+    /* min-height: deixa com a altura minima, mas a partir do momento que passa a altura, ele expande; */
+    background-color: #ccc;
+}
+
+/* .a{
+    background-color: red;
+    width: 50%;
+} */
+
+.bg_red{
+    background-color: #900;
+}
+.bg_blue{
+    background-color: #369;
+}
+
+.bg_orange{
+    background-color: #f60;
+}

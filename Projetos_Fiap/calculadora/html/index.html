@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="main">
+        <form action="" name="calculator">
+            <input type="text" class="text maincolor" name="text" disabled >
+            <input type="text" class="text1 maincolor" name="text1" value="C" onclick="location.reload()"><br>
+
+            <input type="button" class="num maincolor" name="btn9" value="9" 
+            onclick="displayNum(btn9.value)">
+
+            <input type="button" class="num maincolor" name="btn8" value="8"
+             onclick="displayNum(btn8.value)">
+
+            <input type="button" class="num maincolor" name="btn7" value="7" 
+            onclick="displayNum(btn7.value)">
+
+            <input type="button" class="num blue" name="addbtn" value="+"
+             onclick="displayNum(addbtn.value)"><br>
+
+            <input type="button" class="num maincolor" name="btn6" value="6" 
+            onclick="displayNum(btn6.value)">
+
+            <input type="button" class="num maincolor" name="btn5" value="5"
+             onclick="displayNum(btn5.value)">
+
+            <input type="button" class="num maincolor" name="btn4" value="4"
+             onclick="displayNum(btn4.value)">
+
+            <input type="button" class="num pin" name="subbtn" value="-" 
+            onclick="displayNum(subbtn.value)"><br>
+
+            <input type="button" class="num maincolor" name="btn3" value="3"
+             onclick="displayNum(btn3.value)">
+
+            <input type="button" class="num maincolor" name="btn2" value="2"
+             onclick="displayNum(btn2.value)">
+
+            <input type="button" class="num maincolor" name="btn1" value="1"
+             onclick="displayNum(btn1.value)">
+
+            <input type="button" class="num grey" name="multbtn" value="*"
+             onclick="displayNum(multbtn.value)"><br>
+
+            <input type="button" class="num maincolor" name="dot" value="." 
+            onclick="displayNum(dot.value)">
+
+            <input type="button" class="num maincolor" name="btn0" value="0"
+             onclick="displayNum(btn0.value)">
+
+            <input type="button" class="num purp" name="eqlbtn" value="="
+             onclick="text1.value=eval(text1.value)">
+
+            <input type="button" class="num ore" name="divbtn" value="/" 
+            onclick="displayNum(divbtn.value)"><br>
+
+
+        </form>
+    </div>
+</body>
+
+
+</html>

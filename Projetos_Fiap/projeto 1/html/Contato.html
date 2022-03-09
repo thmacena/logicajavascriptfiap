@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../reset/reset.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,
+    500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <title>Barbearia Alura - Contato</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img src="../images/logo.png" class="logo_principal" alt="logobarbeariaalura">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="../html/index.html" >Home</a></li>
+                    <li><a href="../html/produtos.html"> Produtos</a></li>
+                    <li><a href="../html/Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Insira seu nome aqui">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="Exemplo:seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" placeholder="(DDD) 00000-0000">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="20" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <fieldset>
+                <legend class="faleconosco">Como prefere o nosso contato?</legend>
+                
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio"  name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+            </fieldset>  
+
+            <fieldset>   
+                <legend class="horariodeatendimento">Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option> 
+                    </select>
+            </fieldset>
+                <div class="newsletter">
+                    <label class="checkbox"><input type="checkbox" checked>Receber notificações por Email?</label>
+                
+                    <input type="submit" value="Enviar Formulário" class="enviar">
+                </div>
+
+            <div class="diasehorarios">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8H ~ 20H</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>8H ~ 20H</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>12H ~ 19H</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>    
+            
+        </form>
+
+        <a href="tel:+55021993736213"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"</a>
+
+    </main>
+
+    <footer>
+        <img src="../images/logo-branco.png" alt="logobarbeariaalura">
+            <p class="texto_copyright">
+            &copy; Copyright Barbearia Alura 2021
+            </p>
+    </footer>
+    
+</body>
+</html>
