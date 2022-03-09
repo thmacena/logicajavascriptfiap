@@ -41,3 +41,19 @@ Para criar no CSS é:
     *valores para serem atribuidos a classe*
 }
 
+#######################
+
+Seletor de ID - Evitar USAR
+você pode usar o atributo id para criar formatações css.
+
+#nomedoid{
+    propriedade para ser atribuida
+}
+
+na HTML, usar o atributo global id.
+
+<div id="nomedoid"></div>
+---------------------------
+o id não pode ser repetido na página do HTML, ele deve existir apenas uma vez.
+
+######################

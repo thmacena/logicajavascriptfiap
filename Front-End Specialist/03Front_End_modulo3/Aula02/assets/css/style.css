@@ -23,3 +23,9 @@
 .bg_orange{
     background-color: #f60;
 }
+
+#big{
+    width: 500px;
+    height: 400px;
+    background-color: #290;
+}
