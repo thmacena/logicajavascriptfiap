@@ -57,3 +57,29 @@ na HTML, usar o atributo global id.
 o id não pode ser repetido na página do HTML, ele deve existir apenas uma vez.
 
 ######################
+
+Viewport
+
+/* vw - viewport width 1vw= 
+    1% da largura do viewport | 10vw = 10% da largura do VW | 50VW = 50% largura do VW
+
+     */
+
+    /*vh - viewport height 
+    
+    1vh = 1% da altura do ViewPort | 10vh = 10% da altra do VW | 50vh = 50% da altura do vW*
+
+
+    #######################
+            BOX MODEL
+
+            margin - espaçamento externoo
+            padding - preenchimento
+            border- é o contorno que ficará entre o componente 
+            
+
+ ############################################################      
+
+ MEDIDAS EM | REM
+
+
