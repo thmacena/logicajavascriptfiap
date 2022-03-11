@@ -1,0 +1,1 @@
+meuArray [0] = Date(date.now())
